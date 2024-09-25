@@ -1,5 +1,5 @@
 void main() {
-  int a = 77;
+  int a = 35;
   if (a % 5 == 0 || a % 7 == 0) {
     if (a % 5 == 0 && a % 7 == 0) {
       print("The number $a is divisible by both 5 and 7.");
