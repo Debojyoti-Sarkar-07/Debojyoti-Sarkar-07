@@ -1,6 +1,0 @@
-{
-    "testing.alwaysRevealTestOnStateChange": true,
-    "debug.console.acceptSuggestionOnEnter": "on",
-    "debug.confirmOnExit": "always",
-    "debug.console.closeOnEnd": true
-}
