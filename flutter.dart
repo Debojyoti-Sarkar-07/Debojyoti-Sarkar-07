@@ -5,6 +5,7 @@ void main() {
   int d = 64;
   int e = 752;
   BigInt f = BigInt.from(781054015674875547);
+  BigInt g = BigInt.from(87914501478452147);
 
   //check int a (5)
   if (a % 2 == 0) {
@@ -44,6 +45,11 @@ void main() {
   // check BigInt f (781054015674875547)
   bool isEven = f.isEven;
   print(isEven ? "$f is an even number." : "$f is an odd number.");
+
+  // check BigInt g (87914501478452147)
+  bool ab = g.isEven;
+  print(ab ? "$g is an even number " : "$g is an odd number");
+
   // Using switch statement to check if a number is even or odd
 
   // Using ternary operator to check if a number is even or odd
